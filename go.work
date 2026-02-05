@@ -1,0 +1,12 @@
+go 1.22
+
+use (
+  ./backend/src/GiapTech.GoTemp.Domain.Shared
+  ./backend/src/GiapTech.GoTemp.Domain
+  ./backend/src/GiapTech.GoTemp.Application.Contracts
+  ./backend/src/GiapTech.GoTemp.Application
+  ./backend/src/GiapTech.GoTemp.HttpApi
+  ./backend/src/GiapTech.GoTemp.Shared.Hosting
+  ./backend/apps/GiapTech.GoTemp.HttpApi.Host
+  ./backend/apps/GiapTech.GoTemp.DbMigrator
+)
